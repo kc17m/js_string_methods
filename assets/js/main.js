@@ -85,7 +85,7 @@ let favSeason = "autumn";
 let buddy = "Clark Kent";
 let favPlace = "Krypton";
 
-let myText = `Hello my name is ${firstName} ${lastName}, I am ${age} and was born in ${placeBirth}. My weight is ${weight} and I like ${hobbies} as well as playing ${favGames} on my super cinema widescreen laptop computer eating ${favFood}. These days I often watch ${favSports}, even if I don't like a couple of the decisions their government decides. I often wear ${favBrand} jeans and like to go for a walk in ${favSeason} with my best buddy ${buddy} on ${favPlace}. `;
+let myText = `Hello my name is ${firstName} ${lastName}, I am ${age} and was born in ${placeBirth}. My weight is ${weight} and I like ${hobbies} as well as playing ${favGames} on my super cinema widescreen laptop computer eating ${favFood}. These days I often watch ${favSports}, even if I don't like a couple of the decisions of their government leaders. I often wear ${favBrand} jeans and like to go for a walk in ${favSeason} with my best buddy ${buddy} on ${favPlace}. `;
 
 console.log(`Hello my name is ${firstName} ${lastName}, I am ${age} years old and was born in ${placeBirth}. My weight is ${weight} and I like ${hobbies} and playing ${favGames} on my computer. Also, I like to eat ${favFood} and at these times I often watch ${favSports}, even if I don't like some of the things, the government does. I often wear ${favBrand} jeans and like to go for a walk in ${favSeason} with my best buddy ${buddy} on ${favPlace}.`);
 
