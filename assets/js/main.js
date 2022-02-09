@@ -66,6 +66,115 @@ output2.innerHTML += `<br> ${allCaps}`;
 
 // document.write("<br>" + upper + "<br>" + lower + "<br>" + upperSchool + "<br>" + upperGoing + "<br>" + allCaps);
 
+// template literals lev1_1
+
+// let fName = "Lara";
+// let lastName = "Croft";
+let age = "pretty old";
+let placeBirth = "Detroit Rock City";
+let height = "six feet";
+let weight = "60 pounds";
+let hobbies = "acting as a major movie star";
+let favGames = "Tomb Raider";
+let favFood = "fish'n'chips";
+let favSports = "Winter Olympics at China";
+let favBrand = "Levis";
+let favSeason = "autumn";
+let buddy = "Clark Kent";
+let favPlace = "Krypton";
+
+let myText = `Hello my name is ${firstName} ${lastName}, I am ${age} and was born in ${placeBirth}. My weight is ${weight} and I like ${hobbies} as well as playing ${favGames} on my super cinema widescreen laptop computer eating ${favFood}. These days I often watch ${favSports}, even if I don't like a couple of their government admistrative decisions. I often wear ${favBrand} jeans and like to go for a walk in ${favSeason} with my best buddy ${buddy} on ${favPlace}.`;
+
+console.log(`Hello my name is ${firstName} ${lastName}, I am ${age} years old and was born in ${placeBirth}. My weight is ${weight} and I like ${hobbies} and playing ${favGames} on my computer. Also, I like to eat ${favFood} and at these times I often watch ${favSports}, even if I don't like some of the things, the government does. I often wear ${favBrand} jeans and like to go for a walk in ${favSeason} with my best buddy ${buddy} on ${favPlace}.`);
+
+
+let output3 = document.getElementById("output03");
+
+output3.innerHTML = myText;
+
+
+// lev1_2
+// Brain Damage Songtext
+// The lunatic is on the grass
+// The lunatic is on the grass
+// Remembering games and daisy chains and laughs
+// Got to keep the loonies on the path
+
+// The lunatic is in the hall
+// The lunatics are in my hall
+// The paper holds their folded faces to the floor
+// And every day the paperboy brings more
+
+
+// And if the dam breaks open many years too soon
+// And if there is no room upon the hill
+// And if your head explodes with dark forebodings too
+// I'll see you on the dark side of the moon
+
+// The lunatic is in my head
+// The lunatic is in my head
+// You raise the blade, you make the change
+// You rearrange me 'til I'm sane
+// You lock the door
+// And throw away the key
+// There's someone in my head but it's not me
+
+// And if the cloud bursts, thunder in your ear
+// You shout and no one seems to hear
+// And if the band you're in starts playing different tunes
+// I'll see you on the dark side of the moon
+
+let title = "Brain Damage Songtext";
+let grass = "is on the grass";
+let lunatic = "The lunatic";
+let chains = "and daisy chains and laughs";
+let loonies = "the loonies on the path";
+let paperboy = "paperboy brings more";
+let hall = "hall";
+let andIf = "And if the"
+let andIf2 = "And if your head"
+let head = "is in my head";
+let notMe = "but it's not me"
+let lastLine = "I'll see you on dark side of the moon";
+let door = "You lock the door";
+let keys = "And throw away the key";
+let thunder = "thunder in your ear";
+let hear = "no one seems to hear";
+let faces = "faces to the floor";
+
+let output4 = document.getElementById("output04");
+
+let brainDamage =
+    `<h2>${title}</h2> <br>
+    ${lunatic} ${grass} <br>
+    ${lunatic} ${grass} <br>
+    Remembering games and ${chains} <br>
+    Got to keep ${loonies} <br><br>
+    ${lunatic} is in the ${hall} <br>
+    ${lunatic}s are in my ${hall} <br>
+    The paper holds their folded faces to the floor <br>
+    And every day the ${paperboy} <br><br>
+    ${andIf} dam breaks open many years too soon <br>
+    ${andIf}re is no room upon the hill <br>
+    ${andIf2} explodes with dard forebodings too <br>
+    ${lastLine} <br><br>
+    ${lunatic} ${head} <br>
+    ${lunatic} ${head} <br>
+    You raise the blade, you make the change<br>
+    You rearrange me 'til I'm sane<br>
+    ${door}<br>
+    ${keys}<br>
+    There's someone in my head but ${notMe}<br><br>
+    ${andIf} cloud bursts, ${thunder}<br>
+    You shout and no one seems to hear<br> 
+    ${andIf} band your're in starts playing different tunes<br>
+    ${lastLine}
+    `;
+
+output4.innerHTML = brainDamage;
+
+
+
 
 
 
